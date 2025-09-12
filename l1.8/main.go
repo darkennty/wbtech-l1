@@ -41,7 +41,7 @@ func main() {
 		change = ^change
 		N = N & change
 	} else {
-		N = N ^ change
+		N = N | change
 	}
 
 	fmt.Printf("New N: %d.\tBinary N: %b\n", N, N)
